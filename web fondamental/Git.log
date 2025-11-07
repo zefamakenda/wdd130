@@ -1,0 +1,297 @@
+2025-10-28 07:05:54.182 [info] [main] Log level: Info
+2025-10-28 07:05:54.182 [info] [main] Validating found git in: "C:\Program Files\Git\cmd\git.exe"
+2025-10-28 07:05:54.182 [info] [main] Validating found git in: "C:\Program Files (x86)\Git\cmd\git.exe"
+2025-10-28 07:05:54.182 [info] [main] Validating found git in: "C:\Program Files\Git\cmd\git.exe"
+2025-10-28 07:05:54.182 [info] [main] Validating found git in: "C:\Users\vee\AppData\Local\Programs\Git\cmd\git.exe"
+2025-10-28 07:05:54.348 [warning] Unable to find git. Error: not found: git.exe
+2025-10-28 07:05:54.351 [warning] [main] Failed to create model: Error: Git installation not found.
+2025-10-28 07:08:28.730 [info] [main] Log level: Info
+2025-10-28 07:08:28.730 [info] [main] Validating found git in: "C:\Program Files\Git\cmd\git.exe"
+2025-10-28 07:08:28.730 [info] [main] Validating found git in: "C:\Program Files (x86)\Git\cmd\git.exe"
+2025-10-28 07:08:28.730 [info] [main] Validating found git in: "C:\Program Files\Git\cmd\git.exe"
+2025-10-28 07:08:28.730 [info] [main] Validating found git in: "C:\Users\vee\AppData\Local\Programs\Git\cmd\git.exe"
+2025-10-28 07:08:29.027 [warning] Unable to find git. Error: not found: git.exe
+2025-10-28 07:08:29.031 [warning] [main] Failed to create model: Error: Git installation not found.
+2025-10-28 07:39:58.114 [info] [main] Log level: Info
+2025-10-28 07:39:58.114 [info] [main] Validating found git in: "C:\Program Files\Git\cmd\git.exe"
+2025-10-28 07:39:58.114 [info] [main] Using git "2.51.1.windows.1" from "C:\Program Files\Git\cmd\git.exe"
+2025-10-28 07:39:58.114 [info] [Model][doInitialScan] Initial repository scan started
+2025-10-28 07:39:58.114 [info] > git rev-parse --show-toplevel [183ms]
+2025-10-28 07:39:58.114 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-10-28 07:39:58.146 [info] > git rev-parse --show-toplevel [412ms]
+2025-10-28 07:39:58.146 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-10-28 07:39:58.714 [info] > git rev-parse --show-toplevel [366ms]
+2025-10-28 07:39:58.714 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-10-28 07:39:59.034 [info] > git rev-parse --show-toplevel [175ms]
+2025-10-28 07:39:59.034 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-10-28 07:39:59.037 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-10-28 07:47:48.390 [info] > git init -b main [116ms]
+2025-10-28 07:47:48.483 [info] > git rev-parse --show-toplevel [84ms]
+2025-10-28 07:47:48.595 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [105ms]
+2025-10-28 07:47:48.619 [info] [Model][openRepository] Opened repository (path): c:\Users\vee\Documents\Zefa  BYU\web fondamental
+2025-10-28 07:47:48.619 [info] [Model][openRepository] Opened repository (real path): c:\Users\vee\Documents\Zefa  BYU\web fondamental
+2025-10-28 07:47:48.619 [info] [Model][openRepository] Opened repository (kind): repository
+2025-10-28 07:47:48.645 [info] [Git][getRemotes] No remotes found in the git config file
+2025-10-28 07:47:48.830 [info] > git config --get commit.template [194ms]
+2025-10-28 07:47:48.851 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [208ms]
+2025-10-28 07:47:48.852 [warning] [Git][getBranch] No such branch: main
+2025-10-28 07:47:49.211 [info] > git status -z -uall [353ms]
+2025-10-28 07:47:49.213 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [346ms]
+2025-10-28 07:47:49.254 [info] [Git][getRemotes] No remotes found in the git config file
+2025-10-28 07:47:49.657 [info] > git ls-files --stage -- index.html [511ms]
+2025-10-28 07:47:49.664 [info] > git config --get commit.template [418ms]
+2025-10-28 07:47:49.665 [info] > git show --textconv :index.html [527ms]
+2025-10-28 07:47:49.675 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [442ms]
+2025-10-28 07:47:49.675 [warning] [Git][getBranch] No such branch: main
+2025-10-28 07:47:49.676 [error] [GitHistoryProvider][resolveHEADMergeBase] Failed to resolve merge base for main: Error: No such branch: main.
+2025-10-28 07:47:49.709 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [456ms]
+2025-10-28 07:47:49.710 [warning] [Git][getBranch] No such branch: main
+2025-10-28 07:47:49.725 [info] > git check-ignore -v -z --stdin [284ms]
+2025-10-28 07:47:49.836 [info] > git hash-object -t tree /dev/null [173ms]
+2025-10-28 07:47:49.836 [warning] [GitFileSystemProvider][stat] File not found - git:/c%3A/Users/vee/Documents/Zefa%20%20BYU/web%20fondamental/index.html.git?%7B%22path%22%3A%22c%3A%5C%5CUsers%5C%5Cvee%5C%5CDocuments%5C%5CZefa%20%20BYU%5C%5Cweb%20fondamental%5C%5Cindex.html%22%2C%22ref%22%3A%22%22%7D
+2025-10-28 07:47:49.845 [info] > git status -z -uall [130ms]
+2025-10-28 07:47:49.846 [info] > git hash-object -t tree /dev/null [173ms]
+2025-10-28 07:47:49.846 [warning] [GitFileSystemProvider][readFile] File not found - git:/c%3A/Users/vee/Documents/Zefa%20%20BYU/web%20fondamental/index.html.git?%7B%22path%22%3A%22c%3A%5C%5CUsers%5C%5Cvee%5C%5CDocuments%5C%5CZefa%20%20BYU%5C%5Cweb%20fondamental%5C%5Cindex.html%22%2C%22ref%22%3A%22%22%7D
+2025-10-28 07:47:49.847 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [125ms]
+2025-10-28 07:47:49.862 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [172ms]
+2025-10-28 07:47:49.862 [info] fatal: bad revision 'refs/heads/main'
+2025-10-28 07:47:49.862 [error] [GitHistoryProvider][provideHistoryItems] Failed to get history items with options '{"historyItemRefs":["refs/heads/main"],"limit":50,"skip":0}': Failed to execute git {
+  "exitCode": 128,
+  "gitCommand": "log",
+  "stdout": "",
+  "stderr": "fatal: bad revision 'refs/heads/main'\n"
+}
+2025-10-28 07:48:01.429 [info] > git add -A -- . [218ms]
+2025-10-28 07:48:01.755 [info] > git -c user.useConfigOnly=true commit --quiet [317ms]
+2025-10-28 07:48:01.755 [info] Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "zefamakenda@gmail.com"
+  git config --global user.name "Zefa Binena Makenda"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: no email was given and auto-detection is disabled
+2025-10-28 07:48:01.891 [info] > git config --get-all user.name [124ms]
+2025-10-28 07:48:01.902 [info] [Git][getRemotes] No remotes found in the git config file
+2025-10-28 07:48:01.971 [info] > git config --get commit.template [75ms]
+2025-10-28 07:48:01.974 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [72ms]
+2025-10-28 07:48:01.974 [warning] [Git][getBranch] No such branch: main
+2025-10-28 07:48:02.034 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [53ms]
+2025-10-28 07:48:02.034 [info] > git status -z -uall [58ms]
+2025-10-28 07:48:02.556 [info] > git show --textconv HEAD:index.html [137ms]
+2025-10-28 07:48:02.557 [warning] [GitFileSystemProvider][readFile] File not found - git:/c%3A/Users/vee/Documents/Zefa%20%20BYU/web%20fondamental/index.html.git?%7B%22path%22%3A%22c%3A%5C%5CUsers%5C%5Cvee%5C%5CDocuments%5C%5CZefa%20%20BYU%5C%5Cweb%20fondamental%5C%5Cindex.html%22%2C%22ref%22%3A%22HEAD%22%7D
+2025-10-28 07:48:02.585 [info] > git show --textconv :index.html [175ms]
+2025-10-28 07:48:02.590 [info] > git ls-files --stage -- index.html [162ms]
+2025-10-28 07:48:02.600 [info] > git ls-tree -l HEAD -- index.html [163ms]
+2025-10-28 07:48:02.600 [info] fatal: Not a valid object name HEAD
+2025-10-28 07:48:02.600 [warning] [GitFileSystemProvider][stat] File not found - git:/c%3A/Users/vee/Documents/Zefa%20%20BYU/web%20fondamental/index.html.git?%7B%22path%22%3A%22c%3A%5C%5CUsers%5C%5Cvee%5C%5CDocuments%5C%5CZefa%20%20BYU%5C%5Cweb%20fondamental%5C%5Cindex.html%22%2C%22ref%22%3A%22HEAD%22%7D
+2025-10-28 07:48:02.745 [info] > git cat-file -s 4d1f6fdce19a614c6ce288c440d4fc278c55f65f [152ms]
+2025-10-28 07:48:19.256 [info] > git ls-files --stage -- index.html [98ms]
+2025-10-28 07:48:19.371 [info] > git cat-file -s 4d1f6fdce19a614c6ce288c440d4fc278c55f65f [111ms]
+2025-10-28 07:48:19.637 [info] > git show --textconv :index.html [212ms]
+2025-10-28 07:48:30.779 [info] > git -c user.useConfigOnly=true commit --quiet [77ms]
+2025-10-28 07:48:30.779 [info] Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "zefamakenda@gmail.com"
+  git config --global user.name "Zefa Binena Makenda"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: no email was given and auto-detection is disabled
+2025-10-28 07:48:30.922 [info] > git config --get-all user.name [140ms]
+2025-10-28 07:48:30.930 [info] [Git][getRemotes] No remotes found in the git config file
+2025-10-28 07:48:30.982 [info] > git config --get commit.template [56ms]
+2025-10-28 07:48:30.987 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [57ms]
+2025-10-28 07:48:30.987 [warning] [Git][getBranch] No such branch: main
+2025-10-28 07:48:31.056 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [63ms]
+2025-10-28 07:48:31.064 [info] > git status -z -uall [74ms]
+2025-10-28 07:48:33.839 [info] > git ls-files --stage -- index.html [138ms]
+2025-10-28 07:48:33.934 [info] > git cat-file -s 4d1f6fdce19a614c6ce288c440d4fc278c55f65f [90ms]
+2025-10-28 07:48:34.004 [info] > git show --textconv :index.html [65ms]
+2025-10-28 07:49:08.046 [info] > git -c user.useConfigOnly=true commit --quiet [70ms]
+2025-10-28 07:49:08.047 [info] Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "zefamakenda@gmail.com"
+  git config --global user.name "Zefa Binena Makenda"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: no email was given and auto-detection is disabled
+2025-10-28 07:49:08.255 [info] > git config --get-all user.name [205ms]
+2025-10-28 07:49:08.265 [info] [Git][getRemotes] No remotes found in the git config file
+2025-10-28 07:49:08.326 [info] > git config --get commit.template [66ms]
+2025-10-28 07:49:08.331 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [66ms]
+2025-10-28 07:49:08.331 [warning] [Git][getBranch] No such branch: main
+2025-10-28 07:49:08.405 [info] > git status -z -uall [71ms]
+2025-10-28 07:49:08.406 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [67ms]
+2025-10-28 07:49:10.290 [info] > git ls-files --stage -- index.html [66ms]
+2025-10-28 07:49:10.367 [info] > git cat-file -s 4d1f6fdce19a614c6ce288c440d4fc278c55f65f [73ms]
+2025-10-28 07:49:10.448 [info] > git show --textconv :index.html [74ms]
+2025-10-28 07:49:19.530 [info] > git -c user.useConfigOnly=true commit --quiet [78ms]
+2025-10-28 07:49:19.530 [info] Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "zefamakenda@gmail.com"
+  git config --global user.name "Zefa Binena Makenda"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: no email was given and auto-detection is disabled
+2025-10-28 07:49:19.714 [info] > git config --get-all user.name [179ms]
+2025-10-28 07:49:19.722 [info] [Git][getRemotes] No remotes found in the git config file
+2025-10-28 07:49:19.790 [info] > git config --get commit.template [69ms]
+2025-10-28 07:49:19.798 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [72ms]
+2025-10-28 07:49:19.799 [warning] [Git][getBranch] No such branch: main
+2025-10-28 07:49:19.894 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [86ms]
+2025-10-28 07:49:19.903 [info] > git status -z -uall [100ms]
+2025-10-28 07:49:24.098 [info] > git ls-files --stage -- index.html [121ms]
+2025-10-28 07:49:24.242 [info] > git cat-file -s 4d1f6fdce19a614c6ce288c440d4fc278c55f65f [134ms]
+2025-10-28 07:49:24.347 [info] > git show --textconv :index.html [96ms]
+2025-10-28 07:52:38.959 [info] > git -c user.useConfigOnly=true commit --quiet [74ms]
+2025-10-28 07:52:38.959 [info] Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "zefamakenda@gmail.com"
+  git config --global user.name "Zefa Binena Makenda"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: no email was given and auto-detection is disabled
+2025-10-28 07:52:39.016 [info] > git config --get-all user.name [53ms]
+2025-10-28 07:52:39.023 [info] [Git][getRemotes] No remotes found in the git config file
+2025-10-28 07:52:39.077 [info] > git config --get commit.template [58ms]
+2025-10-28 07:52:39.083 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [61ms]
+2025-10-28 07:52:39.083 [warning] [Git][getBranch] No such branch: main
+2025-10-28 07:52:39.141 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [51ms]
+2025-10-28 07:52:39.145 [info] > git status -z -uall [59ms]
+2025-10-28 07:52:44.210 [info] > git ls-files --stage -- index.html [109ms]
+2025-10-28 07:52:44.316 [info] > git cat-file -s 4d1f6fdce19a614c6ce288c440d4fc278c55f65f [101ms]
+2025-10-28 07:52:44.510 [info] > git show --textconv :index.html [177ms]
+2025-10-28 08:06:25.247 [info] > git check-ignore -v -z --stdin [124ms]
+2025-10-28 08:28:29.784 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [97ms]
+2025-10-28 08:28:29.784 [info] fatal: bad revision 'refs/heads/main'
+2025-10-28 08:28:29.785 [error] [GitHistoryProvider][provideHistoryItems] Failed to get history items with options '{"historyItemRefs":["refs/heads/main"],"limit":50,"skip":0}': Failed to execute git {
+  "exitCode": 128,
+  "gitCommand": "log",
+  "stdout": "",
+  "stderr": "fatal: bad revision 'refs/heads/main'\n"
+}
+2025-10-28 08:28:40.775 [info] > git -c user.useConfigOnly=true commit --quiet [71ms]
+2025-10-28 08:28:40.775 [info] Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "zefamakenda@gmail.com"
+  git config --global user.name "Zefa Binena Makenda"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: no email was given and auto-detection is disabled
+2025-10-28 08:28:40.841 [info] > git config --get-all user.name [59ms]
+2025-10-28 08:28:40.852 [info] [Git][getRemotes] No remotes found in the git config file
+2025-10-28 08:28:40.907 [info] > git config --get commit.template [60ms]
+2025-10-28 08:28:40.912 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [60ms]
+2025-10-28 08:28:40.912 [warning] [Git][getBranch] No such branch: main
+2025-10-28 08:28:40.971 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [52ms]
+2025-10-28 08:28:40.974 [info] > git status -z -uall [59ms]
+2025-10-28 08:28:43.223 [info] > git ls-files --stage -- index.html [54ms]
+2025-10-28 08:28:43.281 [info] > git cat-file -s 4d1f6fdce19a614c6ce288c440d4fc278c55f65f [52ms]
+2025-10-28 08:28:43.342 [info] > git show --textconv :index.html [57ms]
+2025-10-28 08:28:48.963 [info] > git -c user.useConfigOnly=true commit --quiet --amend [76ms]
+2025-10-28 08:28:48.963 [info] fatal: You have nothing to amend.
+2025-10-28 08:28:49.017 [info] > git config --get-all user.name [51ms]
+2025-10-28 08:28:49.024 [info] [Git][getRemotes] No remotes found in the git config file
+2025-10-28 08:28:49.082 [info] > git config --get commit.template [61ms]
+2025-10-28 08:28:49.085 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [62ms]
+2025-10-28 08:28:49.085 [warning] [Git][getBranch] No such branch: main
+2025-10-28 08:28:49.146 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [54ms]
+2025-10-28 08:28:49.150 [info] > git status -z -uall [62ms]
+2025-10-28 08:28:57.770 [info] > git -c user.useConfigOnly=true commit --quiet [68ms]
+2025-10-28 08:28:57.770 [info] Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "zefamakenda@gmail.com"
+  git config --global user.name "Zefa Binena Makenda"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: no email was given and auto-detection is disabled
+2025-10-28 08:28:57.838 [info] > git config --get-all user.name [60ms]
+2025-10-28 08:28:57.847 [info] [Git][getRemotes] No remotes found in the git config file
+2025-10-28 08:28:57.904 [info] > git config --get commit.template [61ms]
+2025-10-28 08:28:57.909 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [62ms]
+2025-10-28 08:28:57.909 [warning] [Git][getBranch] No such branch: main
+2025-10-28 08:28:57.974 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [59ms]
+2025-10-28 08:28:57.981 [info] > git status -z -uall [70ms]
+2025-10-28 08:29:00.922 [info] > git ls-files --stage -- index.html [140ms]
+2025-10-28 08:29:01.185 [info] > git cat-file -s 4d1f6fdce19a614c6ce288c440d4fc278c55f65f [257ms]
+2025-10-28 08:29:01.278 [info] > git show --textconv :index.html [84ms]
+2025-10-28 08:30:24.611 [info] [Git][getRemotes] No remotes found in the git config file
+2025-10-28 08:30:24.693 [info] > git config --get commit.template [87ms]
+2025-10-28 08:30:24.700 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [89ms]
+2025-10-28 08:30:24.700 [warning] [Git][getBranch] No such branch: main
+2025-10-28 08:30:24.781 [info] > git status -z -uall [77ms]
+2025-10-28 08:30:24.786 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [78ms]
+2025-10-28 08:30:25.543 [info] > git check-ignore -v -z --stdin [71ms]
+2025-10-28 08:31:11.432 [info] > git show --textconv HEAD:index.html [84ms]
+2025-10-28 08:31:11.432 [warning] [GitFileSystemProvider][readFile] File not found - git:/c%3A/Users/vee/Documents/Zefa%20%20BYU/web%20fondamental/index.html.git?%7B%22path%22%3A%22c%3A%5C%5CUsers%5C%5Cvee%5C%5CDocuments%5C%5CZefa%20%20BYU%5C%5Cweb%20fondamental%5C%5Cindex.html%22%2C%22ref%22%3A%22HEAD%22%7D
+2025-10-28 08:31:11.446 [info] > git show --textconv :index.html [102ms]
+2025-10-28 08:31:11.456 [info] > git ls-files --stage -- index.html [104ms]
+2025-10-28 08:31:11.460 [info] > git ls-tree -l HEAD -- index.html [103ms]
+2025-10-28 08:31:11.460 [info] fatal: Not a valid object name HEAD
+2025-10-28 08:31:11.460 [warning] [GitFileSystemProvider][stat] File not found - git:/c%3A/Users/vee/Documents/Zefa%20%20BYU/web%20fondamental/index.html.git?%7B%22path%22%3A%22c%3A%5C%5CUsers%5C%5Cvee%5C%5CDocuments%5C%5CZefa%20%20BYU%5C%5Cweb%20fondamental%5C%5Cindex.html%22%2C%22ref%22%3A%22HEAD%22%7D
+2025-10-28 08:31:11.512 [info] > git cat-file -s 4d1f6fdce19a614c6ce288c440d4fc278c55f65f [53ms]
+2025-10-28 08:31:25.512 [info] > git -c user.useConfigOnly=true commit --quiet [72ms]
+2025-10-28 08:31:25.512 [info] Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "zefamakenda@gmail.com"
+  git config --global user.name "Zefa Binena Makenda"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: no email was given and auto-detection is disabled
+2025-10-28 08:31:25.577 [info] > git config --get-all user.name [61ms]
+2025-10-28 08:31:25.582 [info] [Git][getRemotes] No remotes found in the git config file
+2025-10-28 08:31:25.639 [info] > git config --get commit.template [59ms]
+2025-10-28 08:31:25.643 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [60ms]
+2025-10-28 08:31:25.643 [warning] [Git][getBranch] No such branch: main
+2025-10-28 08:31:25.706 [info] > git status -z -uall [60ms]
+2025-10-28 08:31:25.708 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [59ms]
+2025-10-28 08:31:31.724 [info] > git ls-files --stage -- index.html [245ms]
+2025-10-28 08:31:31.842 [info] > git cat-file -s 4d1f6fdce19a614c6ce288c440d4fc278c55f65f [115ms]
+2025-10-28 08:31:31.906 [info] > git show --textconv :index.html [59ms]
