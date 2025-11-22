@@ -1,6 +1,6 @@
 
 :root {
-  --primary-color: #70b870;
+  --primary-color: #3e8e3e;
   --secondary-color: #3d1d02;
   --accent1-color: #264653;
   --accent2-color: #e9c46a;
@@ -104,6 +104,7 @@ nav, p, section, article {
   text-align: center;
   opacity: 1;
   color: #fff;
+  background-color: var(--accent1-color);
 }
 
 .hero article {
@@ -196,6 +197,7 @@ footer {
 .socialmedia img {
   width: 24px;
 }
+
 
 
 
