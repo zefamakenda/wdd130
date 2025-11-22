@@ -5,27 +5,29 @@
     <link rel="stylesheet" href="styles/rafting.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us | White Water Rafting</title>
+    <title>About Us | Down The River</title>
     <meta name="description" content="Come rafting with us! Learn about our team and what we believe in.">
     <meta name="author" content="Zefa Binena Makenda">
 </head>
 
 <body>
     <header>
-        <img src="images/z-downriver.png" alt="Down The River">
+        <div class="logo">
+            <img src="images/z-downriver.png" alt="Down The River">
+        </div>
         <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="trips.html">Trips</a></li>
-                <li><a href="contact.html">Contact Us</a></li>
+            <ul type="none">
+                <li class="grid"><a href="index.html">Home</a></li>
+                <li class="grid"><a href="about.html">About Us</a></li>
+                <li class="grid"><a href="trips.html">Trips</a></li>
+                <li class="grid"><a href="contact.html">Contact Us</a></li>
             </ul>
         </nav>
     </header>
     <main>
         <div class="hero">
             <img src="images/rafting58_600.jpg" alt="Hero Image">
-            <h1>About - Us Down The River</h1>
+            <h1>Down The River Rafting</h1>
             <article>
                 <img src="images/rafting59_600.jpg" alt="Happy Client">
                 <p>Here at Down The River, our whitewater rafting trips are designed to provide
@@ -36,15 +38,75 @@
             </article>
         </div>
         <section>
-            <h2>History</h2>
-            <p>Down The River was founded in 1995 by a group of adventure enthusiasts who wanted to share their love
-                for the
-                great outdoors. Starting with just a handful of rafts and a passion for exploration, the company has
-                grown into a leading provider of
-                whitewater rafting experiences..</p>
+            <div class="history">
+                <h2>History</h2>
+
+                <sub>
+
+                    <p>Down The River was founded in 1995 by a group of adventure enthusiasts who wanted to
+                        share their
+                        love
+                        for thegreat outdoors. Starting with just a handful
+                    </p>
+
+                    <img src="images/rafting43_600.jpg" alt="History">
+
+                    <p2>of rafts and a passion for exploration, the
+                        company
+                        has
+                        grown into a leading provider of
+                        whitewater rafting experiences..
+                    </p2>
+                </sub>
+
+            </div>
+
+            <style>
+                section {
+                    display: flex;
+                    justify-content: space-between;
+                }
+
+                figure {
+                    margin: 10px;
+                }
+
+                section img {
+                    width: 140px;
+                    height: auto;
+                }
+            </style>
         </section>
         <section>
-            <h2>Adventure Awaits You!</h2>
+
+
+            <div class="content">
+
+                <h3>Adventure Awaits You!</h3>
+
+                <section2>
+                    <figure>
+                        <img src="images/rafting65_600.jpg" alt="Image 1">
+                        <figcaption>Caption for Image 1</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="images/rafting19_600.jpg" alt="Image 2">
+                        <figcaption>Caption for Image 2</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="images/rafting29_600.jpg" alt="Image 3">
+                        <figcaption>Caption for Image 3</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="images/rafting26_600.jpg" alt="Image 4">
+                        <figcaption>Caption for Image 4</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="images/rafting42_600.jpg" alt="Image 5">
+                        <figcaption>Caption for Image 5</figcaption>
+                    </figure>
+                </section2>
+            </div>
         </section>
     </main>
     <footer>
