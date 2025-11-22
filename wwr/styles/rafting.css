@@ -91,7 +91,7 @@ nav, p, section, article {
   width: 100%;
   padding: 17px;
   text-align: center;
-  color: var(--primary-color);
+  color: var #fff;
   background-color: var(--accent1-color);
 }
 
