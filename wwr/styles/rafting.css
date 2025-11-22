@@ -32,9 +32,7 @@
  header, main, footer {
   width: 840px;
   margin: 1px auto;
-   /* display: flex; */
-     /* flex-direction: row; */
-     /* min-height: 100vh; */
+ 
    }
 
 
@@ -44,7 +42,6 @@
   height: auto;
   }
 
-
  header nav ul {
   display: flex;
   padding: auto;
@@ -53,9 +50,14 @@
   align-items: center;
 
  } 
+ul {
+  list-style: none ;
+}
+
 
 header nav ul li a {
   display: flex;
+  
   width: 110px; 
   text-align: center;
   padding: 8px;
@@ -109,9 +111,7 @@ header nav ul li a {
 .hero article {
   position: absolute;
   bottom: 195px;
-  /* left: 0; */
-  /* display: grid; */
-  /* place-items: center; */
+
   
   opacity: 0.9;
   background-color: var(--accent2-color);
@@ -136,7 +136,7 @@ header nav ul li a {
 .history sub  {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
   padding: 0px;
   margin: 10px;
