@@ -81,7 +81,10 @@ header nav ul li a {
   padding: 8px;
  }
  
-
+ .hero h4 {
+  display: none;
+  
+ }
  
  .hero {
   position: relative;
@@ -119,6 +122,21 @@ header nav ul li a {
  color: var(--secondary-color);
  }
 
+section {
+  display: flex;
+  justify-content: space-between;
+   }
+
+  figure {
+  margin: 10px;
+  }
+
+  section img {
+   width: 140px;
+  height: auto;
+ }
+
+
   .hero article img {
   float: right;
   width: 100px;
@@ -133,7 +151,7 @@ header nav ul li a {
   padding: auto;
  }
 
-.history sub  {
+.history article  {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -141,7 +159,7 @@ header nav ul li a {
   padding: 0px;
   margin: 10px;
  }
-.history sub img {
+.history article img {
   width: auto 150px;
   height: auto;
   
@@ -160,7 +178,7 @@ header nav ul li a {
   
  }
 
-.content section2 {
+.content article {
  display: flex;
   flex-direction: row;
   justify-content: space-between;
