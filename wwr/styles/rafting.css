@@ -6,6 +6,9 @@
   --accent2-color: #e9c46a;
   --heading-font: "Times New Roman", "Georgia", serif;
   --body-font: Arial, Helvetica, sans-serif;
+  --dark-color: #0c0c3e;
+  --light-color: #e9e9dc;
+  --border-color: #111010;
 }
 
 * {
@@ -58,10 +61,10 @@ header nav ul li a {
   text-align: center;
   padding: 8px;
   margin: 0px;
-  border: 2px solid #111010;
+  border: 2px solid var(--border-color);
   text-decoration: none;
-  color: rgb(12, 12, 62);
-  background-color: rgb(233, 233, 220);
+  color: var(--dark-color);
+  background-color: var(--light-color);
   justify-content: center;
   align-items: center;
 }
@@ -193,5 +196,6 @@ footer {
 .socialmedia img {
   width: 24px;
 }
+
 
 
