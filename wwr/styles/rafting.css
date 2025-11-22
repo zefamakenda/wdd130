@@ -1,10 +1,9 @@
-
 :root {
   --primary-color: #3e8e3e;
   --secondary-color: #3d1d02;
   --accent1-color: #264653;
   --accent2-color: #e9c46a;
-  --heading-font: "Times New Roman", "Georgia", serif;
+  --heading-font: "Times New Roman", Georgia, serif;
   --body-font: Arial, Helvetica, sans-serif;
   --dark-color: #0c0c3e;
   --light-color: #e9e9dc;
@@ -24,7 +23,6 @@ body {
 
 header {
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
   align-items: center;
   background-color: var(--accent1-color);
@@ -34,13 +32,11 @@ header {
 
 header, main, footer {
   width: 840px;
-  margin: 1px auto;
+  margin: 0 auto;
 }
 
 .logo {
   margin-left: 20px;
-  width: auto;
-  height: auto;
 }
 
 header nav ul {
@@ -52,21 +48,17 @@ header nav ul {
 }
 
 ul {
-  list-style: none ;
+  list-style: none;
 }
 
-header nav ul li a {
-  display: flex;
+header nav a {
   width: 110px;
   text-align: center;
   padding: 8px;
-  margin: 0px;
   border: 2px solid var(--border-color);
   text-decoration: none;
   color: var(--dark-color);
   background-color: var(--light-color);
-  justify-content: center;
-  align-items: center;
 }
 
 h1, h2, h3 {
@@ -91,9 +83,6 @@ nav, p, section, article {
   display: block;
   width: 100%;
   height: auto;
-  position: relative;
-  top: 20px;
-  text-align: center;
 }
 
 .hero h1 {
@@ -102,8 +91,7 @@ nav, p, section, article {
   width: 100%;
   padding: 17px;
   text-align: center;
-  opacity: 1;
-  color: #fff;
+  color: var(--primary-color);
   background-color: var(--accent1-color);
 }
 
@@ -149,7 +137,7 @@ section img {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 0px;
+  padding: 0;
   margin: 10px;
 }
 
@@ -157,7 +145,7 @@ section img {
   width: 150px;
   height: auto;
   padding: 2px;
-  margin: 0rem 1rem 1rem;
+  margin: 0 1rem 1rem;
 }
 
 .content {
@@ -178,14 +166,12 @@ section img {
 
 footer {
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
   align-items: center;
   padding: 10px;
 }
 
 .socialmedia {
-  position: relative;
   text-align: right;
 }
 
@@ -197,6 +183,7 @@ footer {
 .socialmedia img {
   width: 24px;
 }
+
 
 
 
