@@ -39,27 +39,27 @@ header, main, footer {
   margin-left: 20px;
 }
 
-header nav ul {
-  display: flex;
+nav .grid-container {
+  display: grid;
+  grid-template-columns: 100px 100px 100px 100px;
+  background-color: none;
+  grid-gap: 0px;
   padding: 10px;
-  margin: 10px;
-  justify-content: center;
-  align-items: center;
+ 
 }
 
+ nav .grid-item {
+  background-color: #fff ;
+  border: 1px solid black;
+  padding: 10px;
+  font-size: 15px;
+  text-align: center;
+ }
 ul {
   list-style: none;
 }
 
-header nav a {
-  width: 110px;
-  text-align: center;
-  padding: 8px;
-  border: 2px solid var(--border-color);
-  text-decoration: none;
-  color: var(--dark-color);
-  background-color: var(--light-color);
-}
+
 
 h1, h2, h3 {
   font-family: var(--heading-font);
@@ -133,20 +133,22 @@ section img {
 }
 
 .history .history-in {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  padding: 0;
-  margin: 10px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: none;
+  grid-gap: 0px;
+  padding: 10px;
+ 
 }
 
-.history img {
-  width: 150px;
-  height: auto;
-  padding: 2px;
-  margin: 0 1rem 1rem;
-}
+ .history .history-in.grid-item {
+  background-color: #fff ;
+  border: none;
+  padding: 10px;
+  font-size: 15px;
+  text-align: center;
+ }
+
 
 .content {
   display: flex;
