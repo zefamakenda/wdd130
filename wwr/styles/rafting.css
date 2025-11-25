@@ -30,7 +30,7 @@ header {
 header, main, footer {
   width: 840px;
   margin: 0 auto;
-  padding: 5px;
+  padding: 20px;
 }
 
 .logo {
