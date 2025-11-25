@@ -52,8 +52,11 @@ nav .grid-item {
   padding: 10px;
   font-size: 15px;
   text-align: center;
+  color: var(--accent1-color)
   
 }
+
+nav
 
 ul {
   list-style: none;
