@@ -109,11 +109,11 @@ nav, p, section, article {
   color: var(--secondary-color);
 }
 
-section {
+/* section {
   display: flex;
   justify-content: space-between;
   border: 5px solid black;
-}
+} */
 
 figure {
   margin: 10px;
@@ -179,6 +179,7 @@ section {
   display: flex;
   flex-direction: column;
  gap: 1fr;
+ border: 5px solid black;
 }
 
 
