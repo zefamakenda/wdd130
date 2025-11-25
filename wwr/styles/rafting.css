@@ -164,6 +164,10 @@ section img {
   gap: 10px;
 }
 
+.content h2 {
+  color: #2e8b2e;
+}
+
 article {
   display: grid;
   grid-template-columns: auto auto auto auto auto;
