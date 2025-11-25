@@ -5,9 +5,7 @@
   --accent2-color: #e9c46a;
   --heading-font: "Times New Roman", Georgia, serif;
   --body-font: Arial, Helvetica, sans-serif;
-  --dark-color: #0c0c3e;
-  --light-color: #e9e9dc;
-  --border-color: #111010;
+  
 }
 
 * {
@@ -27,7 +25,7 @@ header {
   align-items: center;
   background-color: var(--accent1-color);
   padding: 10px;
-  border: 3px solid var(--border-color);
+  border: 3px solid black;
 }
 
 header, main, footer {
@@ -52,7 +50,7 @@ nav .grid-container  ul{
 
  nav .grid-item {
   background-color: #fff ;
-  border: 1px solid var(--border-color);
+  border: 1px solid black;
   padding: 10px;
   font-size: 15px;
   text-align: center;
@@ -83,7 +81,7 @@ nav, p, section, article {
 
 .hero {
   position: relative;
-  border: 5px solid var(--border-color);
+  border: 5px solid black;
 }
 
 .hero img {
@@ -114,7 +112,7 @@ nav, p, section, article {
 section {
   display: flex;
   justify-content: space-between;
-  border: 5px solid var(--border-color);
+  border: 5px solid black;
 }
 
 figure {
@@ -189,7 +187,7 @@ footer {
   justify-content: space-between;
   align-items: center;
   padding: 10px;
-  border: 5px solid var(--border-color);
+  border: 5px solid black;
 }
 
 .socialmedia {
