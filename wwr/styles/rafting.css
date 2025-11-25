@@ -18,7 +18,7 @@
 
 body {
   font-family: var(--body-font);
-  color: var(--accent1-color);
+  color: var(--body-font);
 }
 
 header {
@@ -50,7 +50,7 @@ nav .grid-container {
 
  nav .grid-item {
   background-color: #fff ;
-  border: 1px solid black;
+  border: 1px solid var(--border-color);
   padding: 10px;
   font-size: 15px;
   text-align: center;
@@ -91,7 +91,7 @@ nav, p, section, article {
   width: 100%;
   padding: 17px;
   text-align: center;
-  color: var #fff;
+  color: var(--light-color);
   background-color: var(--accent1-color);
 }
 
@@ -153,7 +153,7 @@ section img {
 
 .content {
   display: grid;
-  grid-template-columns: auto;
+  grid-template-columns: auto auto auto auto auto;
   justify-content: space-between;
   gap: 10px;
   
@@ -163,41 +163,18 @@ section img {
   display: grid;
   grid-template-columns: repeat(5,1fr);
   background-color: #fff;
-  grid-gap: 0px;
+  grid-gap: 10px;
   padding: 10px;
+  text-align: center;
  
 }
-/* 
- figure img {
+
+section {
   display: flex;
-  flex-direction: row;
-  background-color: #831d1d ;
-  border: 1px solid black;
-  padding: 10px;
-  font-size: 15px;
-  text-align: center;
- } */
+  flex-direction: column;
+ gap: 1fr;
+}
 
-
- /* section.grid img {
-   display: grid;
-  grid-template-columns: repeat(5,1fr);
-  background-color: none
-} */
-
-
-
-
-/* .grid img {
-   display: grid;
-  grid-template-columns: repeat(5, 1fr);
-   background-color: #9d5959 ;
-  border: 3px solid black;
-  padding: 10px;
-  font-size: 15px;
-  text-align: center;
- justify-content: space-between;
-} */
 
 footer {
   display: flex;
