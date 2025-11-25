@@ -44,7 +44,7 @@ nav .grid-container  ul{
   background-color: none;
   grid-gap: 0px;
   padding: 10px;
-  text-decoration: none;
+  
  
 }
 
@@ -54,7 +54,7 @@ nav .grid-container  ul{
   padding: 10px;
   font-size: 15px;
   text-align: center;
-  text-decoration: none;
+  
  }
 
 
@@ -96,7 +96,7 @@ nav, p, section, article {
   width: 100%;
   padding: 17px;
   text-align: center;
-  color: var(--light-color);
+  color: #fff;
   background-color: var(--accent1-color);
 }
 
@@ -167,12 +167,17 @@ section img {
 
 .article-grid article {
   display: grid;
-  grid-template-columns: repeat(5,1fr);
+  grid-template-columns: auto auto auto auto auto;
   background-color: #fff;
-  grid-gap: 10px;
-  padding: 10px;
+  grid-gap: 5px;
+  /* padding: 1px; */
   text-align: center;
  
+}
+
+.article-grid article img {
+  width: 120px;
+  height: 100px;
 }
 
 section {
