@@ -24,6 +24,7 @@ header {
   align-items: center;
   background-color: var(--accent1-color);
   padding: 10px;
+  color: #fff;
   border: 3px solid var(--secondary-color);
 }
 
@@ -42,6 +43,7 @@ nav .grid-container ul {
   grid-template-columns: 100px 100px 100px 100px;
   grid-gap: 0px;
   padding: 10px;
+  
 }
 
 nav .grid-item {
@@ -50,11 +52,13 @@ nav .grid-item {
   padding: 10px;
   font-size: 15px;
   text-align: center;
+  
 }
 
 ul {
   list-style: none;
   text-decoration: none;
+  
 }
 
 main {
@@ -97,7 +101,7 @@ nav, p, section, article {
   width: 100%;
   padding: 17px;
   text-align: center;
-  color: var(--accent2-color);
+  color: var(--accent1-color);
 }
 
 .hero article {
@@ -120,11 +124,12 @@ section img {
   width: 140px;
   height: auto;
 }
-
 .hero article img {
+  float: right;
   width: 100px;
   margin: 0 0 10px 10px;
 }
+
 
 .history {
   display: flex;
@@ -171,7 +176,7 @@ article {
 section {
   display: flex;
   flex-direction: column;
-  gap: 1px;
+  margin: 20px;
   border: 5px solid var(--secondary-color);
   width: 840px;
   align-items: center;
