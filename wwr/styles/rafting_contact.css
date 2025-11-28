@@ -18,7 +18,7 @@ body {
   color: var(--secondary-color);
 }
 
-/* header {
+header {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -26,20 +26,7 @@ body {
   padding: 10px;
   color: #fff;
   border: 3px solid var(--secondary-color);
-} */
-
-
-header {
-  display: grid;
-  grid-template-columns: auto 2fr; /* adjust as needed */
-  align-items: center; /* ensures uniform alignment */
-  gap: 100px;
-  align-items: center;
-  background-color: var(--accent1-color);
-  padding: 10px;
-  color: #fff;
 }
-
 
 header, main, footer {
   width: 840px;
