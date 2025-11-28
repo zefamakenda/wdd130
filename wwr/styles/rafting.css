@@ -134,10 +134,7 @@ section img {
   width: 100px;
   margin: 0 0 10px 10px;
 }
- section article h1 {
- display: none;
- 
- }
+
 
 .history {
   display: flex;
