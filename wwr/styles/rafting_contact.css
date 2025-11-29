@@ -122,6 +122,8 @@ label {
   border-radius: 1px;
   overflow: hidden;
   box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+  background-color: #e9e9e9;
+  position: relative;
 }
 
 .map-frame iframe {
@@ -203,13 +205,6 @@ textarea {
 
 .submit-btn:hover {
   background-color: #005bb5;
-}
-
-.map-frame {
-  width: auto;
-  height: auto;
-  background-color: #e9e9e9;
-  position: relative;
 }
 
 .map-pin {
@@ -339,6 +334,11 @@ article {
   width: 120px;
   height: 100px;
 }
+
+article h2 {
+  display: none;
+}
+
 
 section {
   display: flex;
