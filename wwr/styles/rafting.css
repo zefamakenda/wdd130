@@ -24,7 +24,6 @@ header {
   grid-template-columns: auto 2fr; 
   align-items: center; 
   gap: 100px;
-  align-items: center;
   background-color: var(--accent1-color);
   padding: 0px;
   color: #fff;
