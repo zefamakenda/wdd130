@@ -736,38 +736,6 @@ height: auto;
   max-width: 640px;
 }
 
-.index img {
-  width: 150px;
-  height: auto;
-  border: 1px solid steelblue;
-  padding: 2px;
-  box-shadow: 0 0 30px gray;
-  float: right;
-  margin: 0 0 1rem 1rem;
-}
-
-.index, p {
- /* margin: 1rem; */
- color: #000;
-}
-
-aside {
-  width: 20em;
-  text-align: center;
-  position: relative;
-}
-
-aside img {
-  width: 200px;
-  height: auto;
-}
-
-aside h2 {
-  position: absolute;
-  top: 60px;
-  left: 70px;
-}
-
 
 
 
@@ -778,4 +746,3 @@ aside h2 {
   background-color: #eee;
   color: #000;
 }
-
